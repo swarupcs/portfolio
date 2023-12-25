@@ -3,6 +3,7 @@ import Tilt from "react-parallax-tilt";
 import { Styles } from "../utils/Style";
 import { technologies, services } from "../Constants";
 import { motion } from "framer-motion";
+import "./style.css"
 
 function Overview() {
   return (

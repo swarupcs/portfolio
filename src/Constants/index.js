@@ -25,10 +25,10 @@ import pro3 from "../assets/pro3.jpg"
      title: "React Developer",
      icon: reacr,
    },
-   {
-     title: "UI/UX Designer",
-      icon: ux,
-   },
+  //  {
+  //    title: "UI/UX Designer",
+  //     icon: ux,
+  //  },
   
  ];
  
