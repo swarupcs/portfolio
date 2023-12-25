@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assests/profile.png";
+import Profile from "../assets/profile.png";
 import { Styles } from "../utils/Style";
 import Resume from "../assests/resume.pdf";
 import { TiArrowDownOutline } from "react-icons/ti";
