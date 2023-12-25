@@ -4,6 +4,8 @@ import { Styles } from "../utils/Style";
 import Resume from "../assests/resume.pdf";
 import { TiArrowDownOutline } from "react-icons/ti";
 
+import "../App.css";
+
 function About() {
   return (
     <div
