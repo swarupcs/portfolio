@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Overview from './Components/Overview';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Overview/>
         <Projects/>
         <Contact/>
+        <Footer/>
 
       </div>
     </div>
