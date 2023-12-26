@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       <div className='p-3 mt-4 '  id='Projects'> 
-        <span className={Styles.sectionHeadText}>
+        <span className={Styles.sectionHeaderText}>
           Projects
         </span>
         <hr className='w-[35%]'></hr>
