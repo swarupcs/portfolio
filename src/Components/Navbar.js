@@ -11,11 +11,11 @@ setIsOpen(!isOpen);
  }
 
   return (
-    <div>
+    <div className='items-center' >
       
-<nav className='fixed w-full z-20 top-0 bg-orange-100 bg-opacity-80'>
-    <div  className=' max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2'>
-        <img src='https://intellipaat.com/course-image/2021/05/headed_logo.png' className=' h-8 ml-4' alt='LOGO'/>
+<nav className='fixed w-full z-20 top-0 bg-orange-100 bg-opacity-80  '>
+    <div  className=' max-w-screen-xl flex flex-wrap items-center justify-center mx-auto p-2'>
+        {/* <img src='' className=' h-8 ml-4' alt='LOGO'/> */}
 
         <div className=' flex md:order-2 ' >
             <button onClick={toggle} className='inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:ring-2 focus:ring-gray-200' >

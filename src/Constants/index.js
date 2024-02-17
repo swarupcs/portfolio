@@ -10,9 +10,9 @@ import typescript from "../assets/typescript.png";
 import ux from "../assets/ux.png"
 import reacr from "../assets/reacr.png";
 import git from "../assets/git.png";
-import pro1 from "../assets/pro1.jpg"
-import pro2 from "../assets/pro2.jpg"
-import pro3 from "../assets/pro3.jpg"
+import pro1 from "../assets/pro1.png"
+import pro2 from "../assets/pro2.png"
+import pro3 from "../assets/pro3.png"
 // import android from "../assets/android.png"
 
  
@@ -79,9 +79,9 @@ import pro3 from "../assets/pro3.jpg"
  
  const projects = [
    {
-     name: "Free Hold",
+     name: "Quiz App",
      description:
-       "Web site for made using Anmgular and Typescript for buying and renting real-estate to style and make it responsive Bootsrap is used",
+       "The quiz app made using HTML,CSS,JavaScript and React",
      tags: [
        {
          name: "Typescript",
@@ -97,8 +97,8 @@ import pro3 from "../assets/pro3.jpg"
        },
      ],
       image: pro1,
-     source_code_link: "",
-     source_deploy_link: " ",
+     source_code_link: "https://github.com/swarupcs/quiz-app",
+     source_deploy_link: "https://quiz-win.netlify.app/",
    },
    {
      name: "ToDo App",
@@ -119,12 +119,12 @@ import pro3 from "../assets/pro3.jpg"
        },
      ],
      image: pro2,
-     source_code_link: "",
-     source_deploy_link: "",
+     source_code_link: "https://github.com/swarupcs/taskmate",
+     source_deploy_link: "https://taskmatetodo.netlify.app/",
 
    },
    {
-     name: "OxiBook ",
+     name: "Text Analyzer ",
      description:
      "OxiBook is online book buying and selling website with and user freindly UI. It is a MERN stack web application, ",
      tags: [
@@ -142,8 +142,8 @@ import pro3 from "../assets/pro3.jpg"
        },
      ],
      image: pro3,
-     source_code_link: "",
-     source_deploy_link: "",
+     source_code_link: "https://github.com/swarupcs/Text-Analyzer",
+     source_deploy_link: "https://text-weaver.netlify.app/",
 
    },
  ];

@@ -17,9 +17,8 @@ function About() {
           Hi, I'm <span className="text-orange-600"> Swarup Das</span>
           <br />
           <span className={Styles.heroSubText}>
-            I am a MERN Stack Developer &
+            I am a MERN Stack Developer
             <br />
-            Web Designer
           </span>
         </span>
 
