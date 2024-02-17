@@ -50,10 +50,10 @@ function Main() {
                 },
                 particles: {
                     color: {
-                        value: "#ea580c",       //particles point color
+                        value: "#20bbd6",       //particles point color
                     },
                     links: {
-                        color: "#ea580c",       //particles links color
+                        color: "#20bbd6",       //particles links color
                         distance: 150,
                         enable: true,
                         opacity: 0.5,

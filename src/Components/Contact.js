@@ -28,7 +28,7 @@ function Contact() {
                     type='text'
                     name='name'
                     placeholder='Whats your good name?'
-                    className=' bg-orange-200 py-4 px-6 placeholder:text-secondary text-orange-500 rounded-lg outline-none border-none font-medium '
+                    className=' bg-orange-200 py-4 px-6 placeholder:text-secondary text-green-500 rounded-lg outline-none border-none font-medium '
                     >
                     </input>
                 </label>
@@ -42,7 +42,7 @@ function Contact() {
                     type='email'
                     name='eamil'
                     placeholder='Whats your web address?'
-                    className=' bg-orange-200 py-4 px-6 placeholder:text-secondary text-orange-500 rounded-lg outline-none border-none font-medium '
+                    className=' bg-orange-200 py-4 px-6 placeholder:text-secondary text-green-500 rounded-lg outline-none border-none font-medium '
                     >
                     </input>
                 </label>
@@ -57,7 +57,7 @@ function Contact() {
                     row={5}
                     name='text'
                     placeholder='Whats you want to say?'
-                    className=' bg-orange-200 py-4 px-6 placeholder:text-secondary text-orange-500 rounded-lg outline-none border-none font-medium '
+                    className=' bg-orange-200 py-4 px-6 placeholder:text-secondary text-green-500 rounded-lg outline-none border-none font-medium '
                     >
                     </textarea>
                 </label>

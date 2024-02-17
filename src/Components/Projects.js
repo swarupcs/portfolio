@@ -37,7 +37,7 @@ function Projects() {
           </div>
          
           <div className='text-center'>
-            <span className=' text-orange-500   '>
+            <span className=' text-green-500   '>
               {project.description}
             </span>
            

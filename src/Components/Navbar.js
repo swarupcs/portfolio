@@ -19,7 +19,7 @@ setIsOpen(!isOpen);
 
         <div className=' flex md:order-2 ' >
             <button onClick={toggle} className='inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden focus:ring-2 focus:ring-gray-200' >
-                <AiOutlineMenuUnfold className='text-orange-400 text-lg'>
+                <AiOutlineMenuUnfold className='text-green-400 text-lg'>
 
                 </AiOutlineMenuUnfold>
 
@@ -39,14 +39,14 @@ setIsOpen(!isOpen);
 <Link spy={true } to='Home' activeClass='activeClass' >
 
     <li>
-        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700 ' > Home</div>
+        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-green-600 text-violet-700 ' > Home</div>
     </li>
     </Link>
 
     <Link spy={true} to='Overview'>
 
     <li>
-        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700 ' > About</div>
+        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-green-600 text-violet-700 ' > About</div>
     </li>
     </Link>
 
@@ -54,14 +54,14 @@ setIsOpen(!isOpen);
     <Link spy={true} to='Projects'>
 
     <li>
-        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700 ' > Projects</div>
+        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-green-600 text-violet-700 ' > Projects</div>
     </li>
     </Link>
 
     <Link spy={true} to='Contact'>
 
     <li>
-        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-orange-600 text-violet-700 ' > Contact</div>
+        <div className=' block py-2 pl-3 pr-4 rounded md:p-0 hover:text-green-600 text-violet-700 ' > Contact</div>
     </li>
     </Link>
 
