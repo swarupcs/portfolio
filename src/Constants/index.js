@@ -126,7 +126,7 @@ import pro3 from "../assets/pro3.png"
    {
      name: "Text Analyzer ",
      description:
-     "OxiBook is online book buying and selling website with and user freindly UI. It is a MERN stack web application, ",
+     "Text Analyzer is a online website that can analyze number of words, characters, and also record the typing speed ",
      tags: [
        {
          name: "React js",
