@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/profile.png";
+import Profile from "../assets/profileSwarup.jpg";
 import { Styles } from "../utils/Style";
 import Resume from "../assets/resume.pdf";
 import { TiArrowDownOutline } from "react-icons/ti";
@@ -36,7 +36,7 @@ function About() {
       </div>
 
       <div  className='flex flex-wrap' >
-            <img src={Profile} alt='profile' className='element object-contain p-4'/>
+            {/* <img src={Profile} alt='profile' className='element object-contain p-4'/> */}
 
         </div>
     </div>
