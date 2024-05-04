@@ -13,6 +13,7 @@ import git from "../assets/git.png";
 import pro1 from "../assets/pro1.png"
 import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/pro3.png"
+import pro4 from "../assets/pro4.png"
 // import android from "../assets/android.png"
 
  
@@ -78,6 +79,28 @@ import pro3 from "../assets/pro3.png"
 
  
  const projects = [
+  {
+    name: "E-Commerce App",
+    description:
+      "The E-Commerce app made using NextJs, Redux-Toolkit TypeScript, Tailwind CSS",
+    tags: [
+      {
+        name: "Typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Angular",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+     image: pro1,
+    source_code_link: "https://github.com/swarupcs/e-commerce-2-nextjs",
+    source_deploy_link: "https://e-commerce-36.vercel.app/",
+  },
    {
      name: "Quiz App",
      description:
@@ -96,7 +119,7 @@ import pro3 from "../assets/pro3.png"
          color: "pink-text-gradient",
        },
      ],
-      image: pro1,
+      image: pro2,
      source_code_link: "https://github.com/swarupcs/quiz-app",
      source_deploy_link: "https://quiz-win.netlify.app/",
    },
@@ -118,7 +141,7 @@ import pro3 from "../assets/pro3.png"
          color: "pink-text-gradient",
        },
      ],
-     image: pro2,
+     image: pro3,
      source_code_link: "https://github.com/swarupcs/taskmate",
      source_deploy_link: "https://taskmatetodo.netlify.app/",
 
@@ -141,7 +164,7 @@ import pro3 from "../assets/pro3.png"
          color: "pink-text-gradient",
        },
      ],
-     image: pro3,
+     image: pro4,
      source_code_link: "https://github.com/swarupcs/Text-Analyzer",
      source_deploy_link: "https://text-weaver.netlify.app/",
 
