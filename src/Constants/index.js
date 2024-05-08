@@ -15,6 +15,7 @@ import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/pro3.png"
 import pro4 from "../assets/pro4.png"
 import pro5 from "../assets/pro5.png"
+import pro6 from "../assets/pro6.png"
 // import android from "../assets/android.png"
 
  
@@ -80,6 +81,7 @@ import pro5 from "../assets/pro5.png"
 
  
  const projects = [
+  // Project 1 -> E-Commerce App
   {
     name: "E-Commerce App",
     description:
@@ -102,6 +104,7 @@ import pro5 from "../assets/pro5.png"
     source_code_link: "https://github.com/swarupcs/e-commerce-2-nextjs",
     source_deploy_link: "https://e-commerce-36.vercel.app/",
   },
+  // Project 2 -> Quiz App
    {
      name: "Quiz App",
      description:
@@ -124,6 +127,7 @@ import pro5 from "../assets/pro5.png"
      source_code_link: "https://github.com/swarupcs/quiz-app",
      source_deploy_link: "https://quiz-win.netlify.app/",
    },
+   // Project 3 -> ToDo App
    {
      name: "ToDo App",
      description:
@@ -147,8 +151,9 @@ import pro5 from "../assets/pro5.png"
      source_deploy_link: "https://taskmatetodo.netlify.app/",
 
    },
+   // Project 4 -> Text Analyzer
    {
-     name: "Text Analyzer ",
+     name: "Text Analyzer",
      description:
      "Text Analyzer is a online website that can analyze number of words, characters, and also record the typing speed ",
      tags: [
@@ -170,6 +175,7 @@ import pro5 from "../assets/pro5.png"
      source_deploy_link: "https://text-weaver.netlify.app/",
 
    },
+   // Project 5 -> Online Code Editor
    {
     name: "Online Code Editor ",
     description:
@@ -189,6 +195,27 @@ import pro5 from "../assets/pro5.png"
     source_code_link: "https://github.com/swarupcs/browser-editor",
     source_deploy_link: "https://browser-editor-one.vercel.app/",
 
-  },
+    },
+    // Project 6 -> CodePen
+   {
+    name: "CodePen",
+    description:
+    "CodePen is the ultimate online playground to write HTML, CSS, and JavaScript projects with live previews",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pro6,
+    source_code_link: "https://github.com/swarupcs/codepen",
+    source_deploy_link: "https://codepenc.netlify.app/",
+
+    },
  ];
  export { services, technologies,  projects };

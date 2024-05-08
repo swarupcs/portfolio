@@ -1,7 +1,7 @@
 import React from "react";
 import Profile from "../assets/profileSwarup.jpg";
 import { Styles } from "../utils/Style";
-import Resume from "../assets/resume.pdf";
+import Resume from "../assets/Swarup's Resume.pdf";
 import { TiArrowDownOutline } from "react-icons/ti";
 
 import "../App.css";
