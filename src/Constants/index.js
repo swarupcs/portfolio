@@ -14,6 +14,7 @@ import pro1 from "../assets/pro1.png"
 import pro2 from "../assets/pro2.png"
 import pro3 from "../assets/pro3.png"
 import pro4 from "../assets/pro4.png"
+import pro5 from "../assets/pro5.png"
 // import android from "../assets/android.png"
 
  
@@ -169,5 +170,25 @@ import pro4 from "../assets/pro4.png"
      source_deploy_link: "https://text-weaver.netlify.app/",
 
    },
+   {
+    name: "Online Code Editor ",
+    description:
+    "A web application for writing, executing, and testing code in various programming languages within the browser",
+    tags: [
+      {
+        name: "React js",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "Tailwind Css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pro5,
+    source_code_link: "https://github.com/swarupcs/browser-editor",
+    source_deploy_link: "https://browser-editor-one.vercel.app/",
+
+  },
  ];
  export { services, technologies,  projects };
